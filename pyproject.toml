@@ -1,0 +1,18 @@
+[project]
+name = "test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cohere>=5.16.1",
+    "dotenv>=0.9.9",
+    "duckduckgo-search>=8.1.1",
+    "faiss-cpu>=1.11.0.post1",
+    "langchain-community>=0.3.27",
+    "langchain-core>=0.3.72",
+    "langchain-openai>=0.3.28",
+    "langgraph>=0.6.3",
+    "rank-bm25>=0.2.2",
+    "streamlit>=1.47.1",
+]
