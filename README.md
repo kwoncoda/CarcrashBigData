@@ -27,9 +27,10 @@
 
 ## 실행 전 준비
 1. Python 3.10 이상 설치
-2. 가상환경 생성 후 의존성 설치
+2. `uv`로 가상환경 생성 및 의존성 설치
    ```bash
-   pip install .
+   uv sync
+
    ```
 3. `.env` 파일에 다음 환경 변수를 설정
    - `OPENAI_API_KEY`
@@ -41,6 +42,6 @@
 
 ## 실행 과정
 ```bash
-streamlit run app.py
+uv run streamlit run app.py
 ```
 브라우저에서 나타나는 인터페이스에 사고 상황을 입력하면 유사 판례와 웹 검색 결과가 반환됩니다.
